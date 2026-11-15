@@ -1,6 +1,6 @@
 export const SITE = {
   name: "GTA VI",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://your-domain.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://leonidalog.com",
   release: "2026-11-19T00:00:00",
   tagline: "Your progress tracker and map guide for GTA VI",
 };
