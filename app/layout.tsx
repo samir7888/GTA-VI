@@ -3,6 +3,7 @@ import "./globals.css";
 import { Anton, Outfit } from "next/font/google";
 import Link from "next/link";
 import { SITE } from "@/lib/data";
+import { Analytics } from "@vercel/analytics/next"
 import JsonLd from "@/components/JsonLd";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/guide-content";
 const anton = Anton({ subsets: ["latin"], weight: "400", variable: "--font-anton" });
@@ -48,7 +49,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/#faq" className="hover:text-sun">FAQ</Link>
           </nav>
         </header>
-        <main id="main">{children}</main>
+        <main id="main">{children}
+          <Analytics />
+
+        </main>
         <footer className="mx-auto mt-20 max-w-6xl px-5 pb-10 text-sm text-cream/60">This is an unofficial GTA VI fan project. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive. Grand Theft Auto is a trademark of Take-Two Interactive.</footer>
       </body>
     </html>
