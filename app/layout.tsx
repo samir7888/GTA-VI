@@ -45,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/vehicles" className="hover:text-sun">Vehicles</Link>
             <Link href="/weapons" className="hover:text-sun">Weapons</Link>
             <Link href="/tips" className="hover:text-sun">Tips</Link>
+            <Link href="/cheats" className="hover:text-sun">Cheats</Link>
             <Link href="/news" className="hover:text-sun">News</Link>
             <Link href="/tracker" className="hover:text-sun">Tracker</Link>
             <Link href="/#faq" className="hover:text-sun">FAQ</Link>

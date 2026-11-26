@@ -132,6 +132,7 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        <p className="mt-5 text-sm text-cream/70">Looking for cheats? <Link href="/cheats" className="font-semibold text-sun hover:text-cream">See all 61 GTA VI cheat codes, inputs and unlocks →</Link></p>
       </section>
       <section className="mx-auto mt-16 max-w-6xl px-5">
         <div className="flex flex-wrap items-end justify-between gap-4">

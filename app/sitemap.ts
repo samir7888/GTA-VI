@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     `${SITE.url}/vehicles`,
     `${SITE.url}/weapons`,
     `${SITE.url}/tips`,
+    `${SITE.url}/cheats`,
     ...REGIONS.map((region) => `${SITE.url}/region/${region.slug}`),
     ...GUIDES.map((guide) => `${SITE.url}/database/${guide.category}/${guide.slug}`),
     ...NEWS.map((article) => `${SITE.url}/news/${article.slug}`),
