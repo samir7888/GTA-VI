@@ -2,7 +2,7 @@ export const SITE = {
   name: "GTA VI",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://leonidalog.com",
   release: "2026-11-19T00:00:00",
-  tagline: "Your progress tracker and map guide for GTA VI",
+  tagline: "The Leonida field guide for Grand Theft Auto VI — now available on PS5 and Xbox Series X|S",
 };
 export const OFFICIAL_GAME_SOURCE = {
   label: "Rockstar Games — Grand Theft Auto VI",
@@ -18,14 +18,20 @@ export const REGIONS: Region[] = [
   { slug: "ambrosia", name: "Ambrosia", inspiredBy: "Rural Florida", vibe: "Lake country, sugar refinery", blurb: "Inland region beside Lake Leonida, dominated by a sugar refinery. Rockstar frames it as a place where fortunes are fought over.", thingsToDo: ["Explore the countryside around Lake Leonida.", "Visit the sugar-refinery landscape that dominates the region.", "Keep an eye out for the local conflicts hinted at in the region's description."], mapPosition: { x: 30, y: 70 }, from: "#ffd36b", to: "#c2562f" },
   { slug: "mount-kalaga", name: "Mount Kalaga National Park", inspiredBy: "Northern Florida wilderness", vibe: "Forest, trails, wild animals", blurb: "The northern national park, a break from the coast with wilderness and wildlife.", thingsToDo: ["Trade the coast for the park's forested wilderness.", "Explore the trails and look for wild animals.", "Set aside time to roam away from Leonida's cities."], mapPosition: { x: 50, y: 20 }, from: "#6aa84f", to: "#274e3f" },
 ];
-export const ACTIVITIES = ["base jumping", "kayaking", "scuba diving", "jet skiing", "racing"];
-export const PREP = ["Pre-load the game and confirm free storage", "Update your console and controller", "Charge a second controller", "Block out your first play session", "Decide your first stop in Vice City"];
+export const ACTIVITIES = ["base jumping", "kayaking", "scuba diving", "jet skiing", "racing", "treasure diving", "gym workouts", "robbery planning", "stealth missions", "street racing"];
+export const PREP = ["Pre-load the game and confirm free storage", "Update your console and controller", "Charge a second controller", "Block out your first play session — the story opens in the southern Keys", "Decide your first stop in Vice City", "Create a manual save before experimenting with cheat codes", "Grab a suppressor early from Ammu-Nation in Key Lento", "Explore the region map and check the six distinct areas"];
 export const GEAR = [{ label: "Extra controller", href: "https://example.com/affiliate/controller" }, { label: "1TB+ SSD for consoles", href: "https://example.com/affiliate/ssd" }];
 export const FAQ = [
-  { q: "When does GTA VI release?", a: "GTA VI launches Thursday, November 19, 2026 on PlayStation 5 and Xbox Series X|S. A PC version has not been announced." },
-  { q: "Where is GTA VI set?", a: "In the fictional state of Leonida, Rockstar's version of Florida, with a modern Vice City at its centre." },
-  { q: "What are the regions in GTA VI?", a: "Rockstar has confirmed six: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga National Park." },
-  { q: "Who are the main characters?", a: "Rockstar's official artwork and trailers feature two protagonists, Jason and Lucia." },
-  { q: "What can you do besides missions?", a: "Rockstar has shown activities like base jumping, kayaking, scuba diving, jet skiing and racing." },
-  { q: "Is this site official?", a: "No. This is an unofficial GTA VI fan project and is not affiliated with Rockstar Games or Take-Two Interactive." },
+  { q: "When did GTA VI release?", a: "GTA VI launched on Thursday, November 19, 2026 on PlayStation 5 and Xbox Series X|S, instantly breaking entertainment industry launch records. A PC release date has not been announced by Rockstar." },
+  { q: "Where is GTA VI set?", a: "In the fictional state of Leonida — Rockstar's satirical take on modern Florida — with a neon-lit Vice City (inspired by Miami) at its centre. The map spans six distinct regions including swamps, tropical keys, national park wilderness, and the working port coast." },
+  { q: "What are the six regions in GTA VI?", a: "Vice City, the Leonida Keys, Grassrivers (the Everglades), Port Gellhorn (the forgotten coast), Ambrosia (lake country around a sugar refinery), and Mount Kalaga National Park (northern wilderness)." },
+  { q: "Who are the main characters?", a: "Jason Duval and Lucia Caminos are the two playable protagonists — a former soldier running drugs in the Keys and a recently released convict determined to build a better life. Their partnership is the core of the story." },
+  { q: "How long is GTA VI?", a: "The main campaign spans 5 chapters and 91 missions, averaging 65+ hours of gameplay for the primary story — a scope comparable to Red Dead Redemption 2." },
+  { q: "What is the story of GTA VI?", a: "Jason and Lucia's routine score goes catastrophically wrong, pulling the pair into a sprawling, state-wide criminal conspiracy across all of Leonida. Critics have compared the central dynamic to a contemporary Bonnie and Clyde." },
+  { q: "How many vehicles are in GTA VI?", a: "GTA VI features nearly 600 total vehicles across cars, motorcycles, boats, aircraft, and industrial machinery. The game also includes 281 rare 'Standout Vehicles' — unique custom-liveried models hidden across Leonida." },
+  { q: "How many weapons are in GTA VI?", a: "Over 60 base weapons including pistols, revolvers, SMGs, shotguns, assault rifles, sniper rifles, launchers, and melee weapons. GTA VI uses a loadout system where Jason and Lucia can carry two sidearms, two longarms, and melee/throwables, with extra weapons stored in vehicle trunks or Ammu-Nation lockers." },
+  { q: "What can you do besides missions?", a: "Activities include base jumping, kayaking, scuba diving, treasure diving, jet skiing, street racing, gym workouts (which raise max health and stamina), robbery planning, and exploring all six regions of Leonida. The game features a fully reactive police AI and a Criminal Profile system shaped by how you choose to play." },
+  { q: "What are the GTA VI cheat codes?", a: "GTA VI features 61 cheat codes, but they are locked behind story progression and gameplay challenge requirements. Input cheats via your protagonist's phone (D-pad Up), navigate to the cheat interface, and enter the directional sequences. Warning: activating cheats disables saving and turns off Trophies/Achievements for that session." },
+  { q: "What new mechanics does GTA VI introduce?", a: "Key new systems include: a Focus mode (L3+R3) for environmental scanning and slow-motion targeting; Criminal Profiles that evolve based on your playstyle (Professional vs Violent); a trunk-based weapon loadout storage system; vehicle fuel gauges requiring gas station refueling; partner coordination commands via D-pad; and a stat system where eating, sleeping, and gym workouts affect health and stamina." },
+  { q: "Is this site official?", a: "No. This is an unofficial GTA VI fan project and is not affiliated with Rockstar Games or Take-Two Interactive. Grand Theft Auto is a trademark of Take-Two Interactive." },
 ];

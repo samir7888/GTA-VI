@@ -3,8 +3,8 @@ import GuideCollection from "@/components/GuideCollection";
 import { GUIDES } from "@/lib/guide-content";
 
 export const metadata: Metadata = {
-  title: "GTA VI Characters: Jason, Lucia & Cast",
-  description: "Meet Jason Duval, Lucia Caminos, and the supporting characters Rockstar has officially introduced for GTA VI.",
+  title: "GTA VI Characters: Jason, Lucia & the Full Cast",
+  description: "Meet Jason Duval, Lucia Caminos, and the full supporting cast of GTA VI — Boobie Ike, Dre'Quan Priest, Raul Bautista, Brian Heder, Cal Hampton, and Real Dimez. All confirmed by Rockstar.",
   alternates: { canonical: "/characters" },
 };
 

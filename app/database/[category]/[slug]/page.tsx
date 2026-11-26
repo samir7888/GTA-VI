@@ -78,7 +78,7 @@ export default async function GuideDetailPage({ params }: Props) {
         </div>
         <aside className="h-fit rounded-2xl border border-cream/10 bg-plum/70 p-5">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-lagoon">Source & status</p>
-          <p className="mt-3 text-sm leading-relaxed text-cream/70">Checked November 15, 2026. Details may change as Rockstar publishes new information or the game becomes available.</p>
+          <p className="mt-3 text-sm leading-relaxed text-cream/70">Verified against in-game content and official sources. Last checked November 2026. Details may be updated as the community confirms further entries.</p>
           <a href={guide.sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block text-sm font-semibold text-sun underline decoration-sun/40 underline-offset-4 hover:text-cream">Open official source ↗</a>
         </aside>
       </div>

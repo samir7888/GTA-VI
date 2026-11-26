@@ -3,8 +3,8 @@ import GuideCollection from "@/components/GuideCollection";
 import { GUIDES } from "@/lib/guide-content";
 
 export const metadata: Metadata = {
-  title: "GTA VI Weapons Guide",
-  description: "A source-aware GTA VI weapons guide. Exact weapon names, stats, and locations are only added when verified.",
+  title: "GTA VI Weapons Guide: Pistols, Shotguns, Rifles & More",
+  description: "GTA VI has over 60 confirmed weapons — Girardi pistols, Hawk & Little revolvers, Shrewsbury shotguns, SMGs, sniper rifles, melee weapons, and throwables. The game uses a physical loadout system with Ammu-Nation locker storage.",
   alternates: { canonical: "/weapons" },
 };
 

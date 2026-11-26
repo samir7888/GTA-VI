@@ -3,8 +3,8 @@ import Link from "next/link";
 import { NEWS } from "@/lib/guide-content";
 
 export const metadata: Metadata = {
-  title: "GTA VI News & Confirmed Updates",
-  description: "Source-linked GTA VI briefings on official announcements, characters, launch details, and what remains unconfirmed.",
+  title: "GTA VI News & Launch Briefings — Out Now",
+  description: "GTA VI launched November 19, 2026. Read source-linked briefings on the launch, reviews, confirmed characters, vehicles, weapons, cheat code rules, and ongoing updates.",
   alternates: { canonical: "/news" },
 };
 
@@ -29,7 +29,7 @@ export default function NewsPage() {
           </li>
         ))}
       </ul>
-      <p className="mt-8 text-xs text-cream/45">Briefings are dated November 15, 2026 and should be rechecked against linked official sources before republishing or relying on time-sensitive details.</p>
+      <p className="mt-8 text-xs text-cream/45">Briefings are updated following the November 19, 2026 launch. Always verify time-sensitive details against the linked primary source before republishing.</p>
     </section>
   );
 }

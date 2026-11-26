@@ -3,8 +3,8 @@ import GuideCollection from "@/components/GuideCollection";
 import { GUIDES } from "@/lib/guide-content";
 
 export const metadata: Metadata = {
-  title: "GTA VI Tips & Tricks",
-  description: "Spoiler-light GTA VI preparation, exploration, and verification tips. Game-specific mechanics are labeled until confirmed.",
+  title: "GTA VI Tips & Tricks: Focus Mode, Criminal Profiles, Heists & More",
+  description: "In-game verified GTA VI tips — master Focus mode (L3+R3), understand Criminal Profiles, plan heists, build stats, manage cheats safely, and explore all six regions of Leonida.",
   alternates: { canonical: "/tips" },
 };
 
