@@ -30,6 +30,13 @@ export const metadata: Metadata = {
     images: [DEFAULT_SOCIAL_IMAGE],
   },
   alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+  },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
